@@ -33,6 +33,10 @@ class Admin_Login extends CI_Controller {
             redirect('admin_login');
         }
     }
+    public function hal()
+    {
+        redirect('admin_login');
+    }
 
 }
 
